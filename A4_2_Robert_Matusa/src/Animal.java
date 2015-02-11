@@ -1,6 +1,6 @@
 public abstract class Animal {
 	private String latinName;
-	private String friendlyName;
+	protected String friendlyName;
 
 	public Animal(String latinName) {
 		this.latinName = latinName;

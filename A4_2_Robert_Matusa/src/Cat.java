@@ -1,9 +1,11 @@
 public class Cat extends Mammal {
 	private int numberOfLives;
 
-	public Cat(String latinName, int gestationTime, int numberOfLives) {
+	public Cat(String friendlyName, String latinName, int gestationTime,
+			int numberOfLives) {
 		super(latinName, gestationTime);
 		this.numberOfLives = numberOfLives;
+		this.friendlyName = friendlyName;
 	}
 
 	public void setNumberOfLives(int numberOfLives) {
@@ -16,7 +18,8 @@ public class Cat extends Mammal {
 
 	public String getInfo() {
 
-		return "The cat " + super.getLatinName() + " nurses for "
+		return "The cat " + super.getFriendlyName() + ", lat: "
+				+ super.getLatinName() + ", nurses for "
 				+ super.getGestationTime() + " months and has " + numberOfLives
 				+ " lives.";
 

@@ -31,7 +31,9 @@ public class AnimalsGUI extends JFrame {
 	 * Create the frame.
 	 */
 	public AnimalsGUI() {
-
+		
+		//Dina djur har bara ett namn på varje, dom ska ha friendlyName och latinName
+		
 		ArrayList<Animal> animals = new ArrayList<Animal>();
 		animals.add(new Snake("Shnake", true));
 		animals.add(new Cat("Kittykat", 18, 10));

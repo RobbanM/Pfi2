@@ -65,8 +65,7 @@ public class Human_Dogs_GUI extends JFrame {
 
 				String human = humanInput.getText();
 				
-				//När du använder < 4 måste man ha minst 4 bokstäver, använd < 3
-				if (human.length() < 4) {
+				if (human.length() < 3) {
 					error.setText("Namnet maste vara minst 3 bokstaver");
 				} else {
 					human1 = new Human(human);

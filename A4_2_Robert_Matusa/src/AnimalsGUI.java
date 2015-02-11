@@ -32,15 +32,15 @@ public class AnimalsGUI extends JFrame {
 	 */
 	public AnimalsGUI() {
 		
-		//Dina djur har bara ett namn på varje, dom ska ha friendlyName och latinName
+		//Fixed
 		
 		ArrayList<Animal> animals = new ArrayList<Animal>();
 		animals.add(new Snake("Shnake", true));
-		animals.add(new Cat("Kittykat", 18, 10));
-		animals.add(new Dog("Doge", 16, true));
+		animals.add(new Cat("Kittykat", "cattus", 10, 18));
+		animals.add(new Dog("Doge", "canis", 16, true));
 		animals.add(new Snake("SneakySnake", false));
-		animals.add(new Cat("CatKitty", 20, 5));
-		animals.add(new Dog("DoggyDoge", 10, false));
+		animals.add(new Cat("CatKitty", "cattus", 5, 20));
+		animals.add(new Dog("DoggyDoge", "canis", 10, false));
 
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);

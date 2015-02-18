@@ -18,9 +18,7 @@ public class ClockLogic implements ClockInterface {
 
 		if (alarmHour == realHour && alarmMinute == realMinute) {
 			clockGUI.alarm(true);
-		} else {
-
-		}
+		} 
 
 	}
 
@@ -58,8 +56,6 @@ public class ClockLogic implements ClockInterface {
 
 		if (alarmHour == realHour && alarmMinute == realMinute) {
 			clockGUI.alarm(true);
-		} else {
-
 		}
 
 	}

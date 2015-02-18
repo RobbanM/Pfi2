@@ -2,7 +2,7 @@ import java.util.Calendar;
 
 public class ClockThread extends Thread {
 	
-	boolean isOn = true;
+	boolean on = true;
 	private ClockInterface clockInterface;
 
 	int hours, minutes, seconds;
@@ -13,11 +13,11 @@ public class ClockThread extends Thread {
 
 	public void run() {
 
-		while (isOn){
+		while (on){
 			try {
 				Thread.sleep(900);
-			} catch (InterruptedException exp) {
-				exp.printStackTrace();
+			} catch (InterruptedException e) {
+				e.printStackTrace();
 			}
 			
 			Calendar calendar = Calendar.getInstance();

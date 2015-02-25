@@ -1,0 +1,12 @@
+1. Malm? C - Lund C
+
+2. ?cmdaction=next&selPointFr=0|80000|0&selPointTo=0|81216|0&noOf=5
+
+3. <Journeys></Journeys>: Inneh?ller resor man kan ta f?r att ta sig till sin slutdestination.
+   <Journey></Jouney>: Inneh?ller en resa.
+   <RouteLinks></RouteLinks>: Inneh?ller alla delar ?ver hela resan.
+   <RouteLink></RouteLink>: Inneh?ller alla delar av en del av resan.
+
+4. <NoOfChanges> som ligger under <Journey>
+
+5. <note> </note> finns inte.
